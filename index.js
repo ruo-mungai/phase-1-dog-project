@@ -63,5 +63,15 @@ async function searchData(passdata){
     const data= await resp.json()
     getSearchData(data.message)
 }
+// display or post data to dome
+function getSearchData(breeds){
+    displayDiv.innerHTML=`
+    <h3>Searched breed images</h3>
+    <marquee behavior="scroll" direction="left" class="slideShow" >
+    ${breeds.map(function(pics){
+        return`<img src=${pics} width="200" height="200">`
+    })}
+  </marquee>`
+}
 
 
