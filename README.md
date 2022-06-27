@@ -1,7 +1,7 @@
-#DOG BREED APP
+# DOG BREED APP
 A dog app that displays dogs images and gives users ability to search for particular dog breed.
 
-##Technologies
+## Technologies
 languages used are **HTML**,**Javasctript** and **CSS**
 
 ## How to search for breed
