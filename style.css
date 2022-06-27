@@ -33,3 +33,9 @@ header {
     opacity: 1;
     transform: scale(1);
 }
+
+.slideShow {
+    position: absolute;
+    height: max-content;
+    width: 100%;
+}
