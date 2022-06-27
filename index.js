@@ -56,3 +56,12 @@ function getInput(){
 }
 getInput()
 
+//get or fetch data from api
+async function searchData(passdata){
+    console.log(passdata)
+    const resp= await fetch(`https://dog.ceo/api/breed/${passdata}/images`)
+    const data= await resp.json()
+    getSearchData(data.message)
+}
+
+
