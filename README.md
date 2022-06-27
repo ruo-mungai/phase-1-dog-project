@@ -7,6 +7,9 @@ languages used are **HTML**,**Javasctript** and **CSS**
 ## How to search for breed
 head to search section and type in the breed you want images for and hit the serach button
 
+## API used 
+[dog api](https://dog.ceo/api/breeds/image/random)
+
 ## License
 MIT license
 
