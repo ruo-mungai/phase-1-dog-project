@@ -46,3 +46,13 @@ const inputId=document.getElementById('searchBar')
 const displayDiv=document.getElementById('breed1')
 const btn=document.getElementById('btn')
 
+//get input from the user
+function getInput(){
+    searching.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        const myInput=inputId.value
+       searchData(myInput)
+    }) 
+}
+getInput()
+
