@@ -13,5 +13,8 @@ head to search section and type in the breed you want images for and hit the ser
 ## License
 MIT license
 
+## Contant
+You can reach me on email: ruomungai@gmail.com
+
 ## live link
 [Dog app](https://ruo-mungai.github.io/phase-1-dog-project/)
