@@ -2,7 +2,7 @@
 const mainDiv=document.getElementById('breed')
 const resultDiv=document.getElementById('breed1')
 //Get image data from server
-fetch('https://dog.ceo/api/breeds/image/random/20')
+fetch('https://dog.ceo/api/breeds/image/random/50')
 .then (resp => resp.json())
 .then (data => getImages(data.message))
 .catch(error => console.log(error))
