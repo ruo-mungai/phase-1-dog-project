@@ -44,7 +44,6 @@ function slideImage(){
 const searching=document.getElementById('search')
 const inputId=document.getElementById('searchBar')
 const displayDiv=document.getElementById('breed1')
-
 //get input from the user
 function getInput(){
     searching.addEventListener('submit',(e)=>{
